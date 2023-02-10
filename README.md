@@ -6,3 +6,4 @@ Certain fields are required and some feilds are not required to be filled.
 After clicking the "Subscribe" button.
 Click on "Welcome" button to recieve a message customized to the information given.
 If not comment has being given you will recive a message Different message, compared to if a comment has being given.
+### Techniques used are - PHP form validation methods,JavaScript and CSS to make a popup-message appear.
