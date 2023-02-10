@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    border: 0px ;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px black;
+    padding: 3% 2% 3% 6%;
+    width: 350px;
+    background-color: rgb(243, 239, 179);
+
+
+}
+.submitBtn {
+    margin: 5% 0 0 0;
+}
+.submitEl {
+    width: 110px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 0cm;
+    background-color: rgba(255, 0, 0, 0.4);
+}
+.submitEl:hover {
+    background-color: rgba(255, 0, 0,0.6);
+}
+.welcomeEl {
+    width: 110px;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 0cm;
+    background-color: rgba(255, 0, 0, 0.4);
+}
+.welcomeEl:hover {
+    background-color: rgba(255, 0, 0,0.6);
+}
+.Message {
+    background-color: rgb(243, 239, 179);
+    font-family: sans-serif;
+    width: 300px;
+    height: 250px;
+    box-shadow: 4px 3px 15px black;
+    position: fixed;
+    padding: 3% 3% 8% 3%;
+    border-radius: 20px;
+}
+.Main.active {
+    filter: blur(4px);
+}
+.Message.active {
+    visibility: hidden;
+}
+.submitBtn {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+}
